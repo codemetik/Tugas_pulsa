@@ -6,6 +6,7 @@
 </head>
 <body>
 	<?php 
+	//komentar
 if (isset($_GET['pesan'])) {
 	if ($_GET['pesan']== "gagal") {
 		echo "Login gagal! Username dan Password salah!";
